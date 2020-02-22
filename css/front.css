@@ -1,0 +1,185 @@
+body{
+ 
+
+}
+
+.scrolled{
+    background-color: rgba(0,0,0,.7) !important;
+}
+
+.brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link{
+    margin-left: auto;
+
+}
+
+/* START HEADER*/
+.header{
+    background: url('../img/13.jpeg') no-repeat top center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+    color: #FFF;
+}
+
+.header .overlay{
+    padding-top: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,.6);
+}
+
+.header h1{
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.header h1 ~ .lead{
+    font-size: 30px;
+    font-weight: 600;
+}
+/* End HEADER */
+
+/* Start Social Media*/
+
+.social-section{
+    padding: 12px;
+    -webkit-box-shadow: -2px -5px 13px #000;
+    -moz-box-shadow: -2px -5px 13px #000;
+    -o-box-shadow: -2px -5px 13px #000;
+    box-shadow: -2px -5px 13px #000;
+}
+
+.social-section h3{
+    font-weight:bold;
+    margin-bottom: 5px;
+    color: #ff0000;
+}
+
+.social-section p{
+    color: #222;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+@media(max-width:400px;){
+    
+}
+
+.social-section i{
+    color: #CCC;
+    margin: 10px 60px;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.social-section .fa-facebook-square:hover{
+    color: #3b5998;
+}
+.social-section .fa-envelope:hover{
+    color: #ea4335;
+}
+.social-section .fa-google-plus-g:hover{
+    color: #dd4b39;
+}
+.social-section .fa-twitter-square:hover{
+    color: #1da1f2;
+}
+/* End Social Media*/
+
+/* Start Services*/
+.tabs-section{
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+.tabs-section .tab-switch li{
+    background-color: #333;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    height: 110px;
+    line-height: 110px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tabs-section .tab-switch li:hover,
+.tabs-section .tab-switch li.selected{
+    background-color: #ff8b38;
+}
+
+.tabs-section .tabs-content div:not(.tab-one){
+    display: none;
+}
+
+.tabs-section .tabs-content h3{
+    margin-top: 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+.tabs-section .tabs-content p{
+    line-height: 1.6;
+    font-size: 18px;
+    color: #7e7e7e;
+}
+/* End Services*/
+
+/*** 6- start gallery  ***/
+
+.gallery .gallery-single { margin-top: 30px; }
+
+/*** /end gallery ***/
+
+
+
+
+
+/*** 8- start footer  ***/
+
+footer { background-color: #262626; padding: 25px 0; }
+
+footer p { color: #999 !important; font-size: 18px; }
+
+/*** /end footer ***/
+
+
+
+.issues, .gallery, .contact { padding: 60px 0px 75px; }
+
+.issues p, .events p { color: #555; font-size: 16px; }
+
+.issues .main-p, .events .main-p, .gallery .main-p {
+	margin: 18px 0 55px;
+}
+
+/*** /end collecting***/
+
+
+
+/* Start Framework*/
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+span{
+    font-weight: normal;
+    color: #ff8b38;
+}
+
+/* End Framework*/
